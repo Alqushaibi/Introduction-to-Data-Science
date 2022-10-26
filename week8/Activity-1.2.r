@@ -1,0 +1,6 @@
+my_matrix <- matrix(c(1, 2, 3, 4, 5, 6), nrow=2)
+print(my_matrix)
+df_from_matrix <- data.frame(my_matrix)
+print(df_from_matrix)
+names(df_from_matrix) <- c('col_1', 'col_2', 'col_3')
+print(df_from_matrix)
